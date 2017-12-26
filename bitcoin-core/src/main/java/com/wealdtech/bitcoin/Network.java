@@ -40,6 +40,15 @@ public enum Network
              ImmutableList.<Integer>of(0, 5)),
 
   /**
+   * BitZeny network
+   * TODO: fix if needed
+   */
+  BITZENY("BitZeny",
+             "org.biteny.production",
+      		   19253,
+             ImmutableList.<Integer>of(81)),
+
+  /**
    * Test network
    */
   TEST("Test",
